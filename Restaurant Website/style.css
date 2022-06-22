@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@500&family=Josefin+Sans:ital,wght@1,600&family=Open+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Potta+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Anek Malayalam';
+    /* border: 1px solid red; */
+}
+
+.conatainer {
+    width: 100%;
+}
+
+.hero {
+    height: 120vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)), url(images/img3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.9rem;
+    position: relative;
+}
+
+.navbar i {
+    position: absolute;
+    right: 2%;
+}
+
+.img1 {
+    width: 100%;
+    background-image: url(images/salad6.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all 1s ease-in-out;
+}
+
+.img1:hover {
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+
+}
+
+.img2 {
+    width: 100%;
+    background-image: url(images/salad2.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all 1s ease-in-out;
+}
+
+.img2:hover {
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+}
+
+.img3 {
+    width: 100%;
+    background-image: url(images/salad3.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: all 1s ease-in-out;
+}
+
+.img3:hover {
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+
+}
+
+.img4 {
+    width: 100%;
+    background-image: url(images/salad5.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all 1s ease-in-out;
+}
+
+.img4:hover {
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+}
+
+.main-content {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 13%;
+}
+
+.main-content h1 {
+    font-size: 5rem;
+    margin-bottom: .2em;
+    font-family: 'Potta One';
+    color: crimson;
+}
+
+.main-content p {
+    font-size: 1.2em;
+}
+
+.btn button {
+    min-width: 40%;
+    padding: 15px;
+    margin: .6em;
+    border: none;
+    border-radius: 29px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1em;
+    font-weight: bold;
+    transition: all .4s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btn button:hover {
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.btn1 {
+    background-color: #009E60;
+    color: white;
+}
+
+.btn1:hover {
+    color: black;
+}
+
+.btn2 {
+    background-color: #fff;
+    color: #36454f;
+}
+
+.btn2:hover {
+    background-color: #3a7b99;
+    color: white;
+}
+
+/* section 2 */
+
+.sect2 {
+    width: 90%;
+    height: 80vh;
+    margin: 5% auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.col {
+    width: 95%;
+    height: auto;
+    margin: 1em auto;
+    padding: 6px;
+    gap: 2em;
+    display: flex;
+    font-size: 1em;
+}
+
+.img {
+    width: 80%;
+    height: auto;
+    background-image: url(images/salad2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info h2,
+h1,
+p {
+    margin-bottom: 22px;
+}
+
+.info h2,
+h1 {
+    font-family: 'Potta One';
+}
+
+.info h1 {
+    font-weight: 100;
+}
+
+.info h2 {
+    font-size: 1.7rem;
+}
+
+/* sector 3 */
+
+.sect3 {
+    height: auto;
+    display: flex;
+}
+
+.info1 {
+    width: 50%;
+    height: auto;
+    background-color: #F4BB44;
+}
+
+.image {
+    width: 50%;
+    height: auto;
+}
+
+.image {
+    background-image: url(images/img4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}
+
+.info1 {
+    display: flex;
+}
+
+.health {
+    width: 70%;
+    height: 100vh;
+    margin: 3% auto;
+}
+
+.health h1 {
+    margin-top: 1em;
+    font-size: 4.2em;
+}
+
+button {
+    min-width: 60%;
+    padding: 15px;
+    border: none;
+    border-radius: 29px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.1em;
+    font-weight: 1500;
+    color: white;
+    background-color: #009E60;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: all .4s ease-in-out;
+}
+
+.btn3:hover {
+    cursor: pointer;
+    color: black;
+    transition: all .4s ease-in-out;
+}
+
+/* section 4 */
+
+.sect4 {
+    height: 80vh;
+    background-color: #ff9999;
+    display: flex;
+    grid-area: 2%;
+}
+
+.information {
+    width: 50%;
+    height: auto;
+}
+
+.icecreme {
+    width: 70%;
+    margin: 5% auto;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+.icecreme h1 {
+    font-size: 3.7em;
+    margin-top: .6em;
+}
+
+.photo {
+    width: 50%;
+    background-image: url(images/icecreme.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.icecreme .btn4 {
+    width: 20%;
+    color: white;
+    background-color: #ffb3b3;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: all .4s ease-in-out;
+}
+
+.btn4:hover {
+    cursor: pointer;
+    color: black;
+    background-color: #ff8080;
+    transition: all .4s ease-in-out;
+}
+
+/* sector 5 */
+
+.sect5 {
+    width: 100%;
+    height: 85vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url(images/discount3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/* discount logo */
+
+.disc {
+    min-width: 18%;
+    min-height: 40vh;
+    border-radius: 122px;
+    background-color: #009E60;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.disc h1 {
+    position: absolute;
+    top: 20%;
+    left: 28%;
+    font-size: 3.2em;
+    color: white;
+}
+
+.sect5 img {
+    width: 13%;
+    height: 30vh;
+    position: absolute;
+    left: 64%;
+    top: 2.5%;
+    border-radius: 122px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.coupen {
+    display: inline-block;
+    position: absolute;
+    top: 78%;
+    left: 50%;
+}
+
+.coupen h3 {
+    text-transform: uppercase;
+    font-size: 1.4em;
+}
+
+.coupen p {
+    color: gray;
+}
+
+/* Sector 6  */
+
+.sect6 {
+    height: 100vh;
+    background-image: url(images/img5.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.organic {
+    width: 36%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.organic h1 {
+    font-size: 4rem;
+    margin-bottom: .5em;
+    color: #3a7b99;
+}
+
+.organic p {
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+}
+
+/* subscribe */
+
+.sect7 {
+    height: 85vh;
+    background-color: #F4BB44;
+}
+
+.contact-form {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding: 4rem;
+}
+
+.contact-form h3 {
+    font-size: 3rem;
+}
+
+.sect7 input {
+    min-width: 35.25%;
+    padding: .7em;
+    margin: .8rem;
+}
+
+#tarea {
+    margin-bottom: 1rem;
+}
+
+.line {
+    border: 2px solid crimson;
+    width: 12%;
+    margin: .5rem auto;
+}
+
+.contact-form p {
+    margin: 2rem;
+}
+
+
+.btn5 {
+    min-width: 20%;
+    padding: 15px;
+    margin: .6em;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1em;
+    font-weight: bold;
+    transition: all .4s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btn5:hover {
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    color: #ffae42;
+}
+
+/* sector 8 */
+
+.sect8 {
+
+    width: 100%;
+    height: auto;
+    background-color: #36454f;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+}
+
+.end {
+    padding: 12px;
+    margin: 1em;
+}
+
+.end h5 {
+    margin: 1em;
+    font-weight: 100;
+}
+
+.end h2 {
+    color: #ffae42;
+}
+
+/* sector 9 */
+
+.sect9 {
+
+    width: 100%;
+    height: auto;
+    background-color: #314d63;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.social-icon {
+    width: 30%;
+    height: 10vh;
+    margin: 1rem auto;
+
+}
+
+.social-icon i {
+    font-size: 1.7rem;
+    margin: .3em;
+    color: white;
+}
+
+.social-icon i:hover {
+
+    color: #ffae42;
+}
+
+.copyright p {
+
+    font-size: .8em;
+}
+
+/* HAPPY ENDING...! */
